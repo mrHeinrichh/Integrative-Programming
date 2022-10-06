@@ -1,0 +1,13 @@
+
+    span{
+    padding:2px;
+    border:3px ridge blue;
+    color:white;
+    background:blue;
+    cursor:pointer;
+    }
+    .label{
+    font-size:25px;
+    margin:10px;
+    }
+    
