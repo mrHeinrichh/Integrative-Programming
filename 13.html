@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Form Manipulation</title>
+<meta charset='utf-8' />
+<script type='text/javascript' src='https://code.jquery.com/jquery-2.1.3.min.js'></script>
+<script type='text/javascript' src='js/form_manipulation.js'></script>
+<link rel='stylesheet' type='text/css' href='css/form_manipulation.css'>
+</head>
+<body>
+<div><form id='formA'>
+<label>Time</label><br>
+<input type='image' src='/images/day.png' />
+<input type='image' src='/images/night.png' /><br>
+<input name='title' type='text' /><br>
+<textarea name='comments'></textarea><br>
+<input type='radio' name='gender' value='male'>Male
+<input type='radio' name='gender' value='female'>Female<br>
+<input type='checkbox' name='Registered'>Registered<br>
+<select size=3 multiple name='count'>
+<option>One</option><option>Two</option><option>Three</option>
+</select><br>
+<input id='resetB' type='button' value='Reset'></input>
+<input id='serializeB' type='button' value='Serialize'></input>
+</form></div>
+<div><form id='formB'>
+<label>Destination</label><br>
+<input type='image' alt='No Image'></input><br>
+<input type='text' /><br>
+<textarea></textarea><br>
+<input type='radio' name='gender' value='male'>Male</input>
+<input type='radio' name='gender' value='female'>Female</input><br>
+<input type='checkbox'>Checked</input><br>
+<select size=3 multiple>
+<option>One</option><option>Two</option><option>Three</option>
+</select>
+</form></div><br>
+<div><label>Serialized</label><p id='serialized'></p></div>
+<div><label>Serialized Array</label><span id='serializedA'></span></div>
+</body>
+</html>
