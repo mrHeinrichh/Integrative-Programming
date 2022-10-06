@@ -16,7 +16,7 @@ $(document).ready(function (){
     var size = item.size*5;
     span.css({'background-color':item.color, 'font-size': item.size+'px',
     width:size, height:size});
-    $('div').append(span);
+    $('div').prepend(span);
     }
     });
     });
