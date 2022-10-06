@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Web Element Manipulation</title>
+<meta charset='utf-8' />
+<script type='text/javascript' src='https://code.jquery.com/jquery-2.1.3.min.js'></script>
+<script type='text/javascript' src='js/web_element_manipulation.js'></script>
+<link rel='stylesheet' type='text/css' href='css/web_manipulation.css'>
+</head>
+<body>
+<div id='container'>
+<div id='menu' class='menu'>
+<span id='lessons' class='menuItem'>lessons</span>
+<span id='docs' class='menuItem'>Docs</span>
+<span id='fade' class='menuItem'>Fade</span>
+</div>
+<div id='content'></div>
+</div>
+<div id='docMenu'>
+<span onclick = 'setDoc("http://api.jquery.com/")'>jQuery</span>
+<span onclick = 'setDoc("http://api.jqueryui.com/")'>jQueryUI</span>
+<span onclick = 'setDoc("http://jquerymobile.com/demos/1.4.0/")'>jQueryMobile</span>
+</div>
+</body>
+</html>
