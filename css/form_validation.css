@@ -1,0 +1,26 @@
+label{display:inline-block;min-width:100px; text-align:right;}
+ input+label{text-align:left;}
+ input.error, select.error{
+ color:darkblue}
+ label.error{color:blue;}
+ br{clear:both;}
+ form{ margin:15px; margin:0px;
+   border: 1px solid darkred;}
+ div{vertical-align:middle;
+   padding-bottom:20px;
+   font:italic 15px/30px Georgia, serif;}
+ #container{
+     width:600px; height:auto;}
+ .buttonGroup { display: inline-block; padding: 5px;
+   border-radius: 4px; margin:15px;
+   box-shadow: 0px 0px 8px rgba(255, 0, 0, 0.5);}
+ p{
+   color:white; background-color:darkred;
+   font-weight:bold; margin:0px;
+   text-align:center; border-radius: 4px 4px 0px 0px ; }
+ select, textarea, input{
+   border-radius: 4px; margin:5px;
+   border:2px groove crimson; padding:5px;}
+ select:focus, textarea:focus, input:focus {
+   border-radius: 4px; margin:5px;
+   border:2px groove #3377FF; }
