@@ -1,0 +1,12 @@
+input[type=image] {height:40px; margin-top:15px;}
+div{
+vertical-align:top; width:300px; height:auto;
+display:inline-block; padding:20px; margin:5px;
+border-radius:10px; border:1px solid;
+}
+label{ background-color:blue; color:white;
+border-radius:8px; padding:5px; }
+p { margin:1px; padding:2px; width: 100%;
+border-radius:8px; display:inline-block;
+word-wrap: break-word; }
+span {width:300px;}
