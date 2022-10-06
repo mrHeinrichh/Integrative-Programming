@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Form Validation</title>
+    <meta charset="utf-8" />
+    <script
+      type="text/javascript"
+      src="https://code.jquery.com/jquery-2.1.3.min.js"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.5/jquery.validate.min.js"
+      integrity="sha512-rstIgDs0xPgmG6RX1Aba4KV5cWJbAMcvRCVmglpam9SoHZiUCyQVDdH2LPlxoHtrv17XWblE/V/PP+Tr04hbtA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/.../dist/jquery.validate.min.js"
+    ></script>
+    <script type="text/javascript" src="js/form_validation.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/form_validation.css" />
+  </head>
+  <body>
+    <div id="container">
+      <p>Welcome to the Fight</p>
+      <form action="test.html" method="get" name="test" id="simpleForm">
+        <label>Name</label>
+        <input name="name" type="text" />
+        <br />
+        <label>Email</label>
+        <input name="email" type="text" />
+        <br />
+        <label>Password</label>
+        <input name="password1" type="password" />
+        <br />
+        <label>Confirm</label>
+        <input name="password2" id="password2" type="password" />
+        <br />
+        <label>Birth Date</label>
+        <input name="birthDate" type="text" />
+        <br />
+        <select name="class" multiple size="4">
+          <option>Melee</option>
+          <option>Mage</option>
+          <option>Ranged</option>
+          <option>Stealth</option>
+        </select>
+        <br />
+        <div class="buttonGroup">
+          <input type="radio" name="hands" value="right" />
+          <label>Right Handed</label>
+          <input type="radio" name="hands" value="left" />
+          <label>Left Handed</label>
+        </div>
+        <br />
+        <div class="buttonGroup">
+          <input type="checkbox" name="armor" value="helmet" />
+          <label>Helmet</label>
+          <input type="checkbox" name="armor" value="shield" />
+          <label>Shield</label>
+          <br />
+          <input type="checkbox" name="armor" value="chainmail" />
+          <label>Chainmail</label>
+          <input type="checkbox" name="armor" value="plated" />
+          <label>Plated</label>
+          <br />
+          <input type="checkbox" name="armor" value="gloves" />
+          <label>Gloves</label>
+          <input type="checkbox" name="armor" value="boots" />
+          <label>Boots</label>
+        </div>
+        <br />
+        <label>Comments:</label>
+        <br />
+        <textarea></textarea>
+        <br />
+        <input type="submit" value="Engage" />
+      </form>
+    </div>
+  </body>
+</html>
