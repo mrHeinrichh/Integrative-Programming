@@ -1,0 +1,32 @@
+#banner{
+    height:100px;
+    color:white; background-color:blue;
+    font-size:40px; text-align:center;
+    }
+    #menu, #docMenu{
+    background-color:black;
+    padding:6px 4px 9px 4px;
+    }
+    .menuItem, #docMenu span{
+    padding:2px;
+    background-image: -moz-linear-gradient(top, #2244ff 0%, #AACCFF 85%, #0022ff 100%);
+    background-image: -webkit-linear-gradient(top, #2244ff 0%, #AACCFF 85%, #0022ff 100%);
+    background-image: -ms-linear-gradient(top, #2244ff 0%, #AACCFF 85%, #0022ff 100%);
+    font:20px bold;
+    cursor:pointer;
+    }
+    .active{ border:5px groove; }
+    #docMenu span{ display:block; margin-top:1px; }
+    #content, iframe{
+    display:inline-block;
+    width:700px; height:500px;
+    }
+    #container{ width:800px; background-color:#C0C0C0}
+    #docMenu{
+    position:fixed; right:60px; top:60px;
+    }
+    #content{
+    padding:2px;
+    color:blue;
+    font-size:20px;
+    }
