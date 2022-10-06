@@ -4,6 +4,6 @@ function update(){
     var $input = $(this).children('input:first');
     var $value = $input.val();
     var filter = 'span:lt(' + $value + ')';
-    $input.siblings(filter).css('background-color','blue');
+    $input.siblings(filter).css('background-color','blue'); //input siblings 
     })
-    }
+}
